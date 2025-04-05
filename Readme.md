@@ -55,6 +55,8 @@ FastAPI is highly versatile and can be applied across a variety of domains:
 - Create APIs for managing products, orders, and user accounts.
 - Build scalable backend systems for online stores.
 
+## This i example of FastApi project 
+
 # TusharNotes - A Simple Note-Taking App
 
 Welcome to **TusharNotes**, a beginner-friendly note-taking application built with **FastAPI** and **MongoDB**. This guide will help you set up, run, and understand the project.
