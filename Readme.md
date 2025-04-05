@@ -110,14 +110,29 @@ The app will be available at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ## Project Structure
 ```
-TusharNotes/
-├── index.py               # Main entry point for the FastAPI app
-├── db.py                  # MongoDB connection setup
-├── routes/
-│   └── note.py            # Routes for handling notes
-├── templates/
-│   └── index.html         # HTML template for the web interface
-└── static/                # Static files (CSS, JS, etc.)
+FASTAPI/
+├── app/
+│   ├── __init__.py          # Makes the app folder a Python package
+│   ├── main.py              # Main entry point for the FastAPI app
+│   ├── config/
+│   │   └── db.py            # MongoDB connection setup
+│   ├── models/
+│   │   └── note.py          # Pydantic models for validation
+│   ├── routes/
+│   │   └── note.py          # API routes for handling notes
+│   ├── schemas/
+│   │   └── note.py          # Schema for formatting MongoDB data
+│   ├── templates/
+│   │   └── index.html       # HTML template for the web interface
+│   ├── static/
+│   │   ├── css/             # CSS files for styling
+│   │   ├── js/              # JavaScript files
+│   │   └── images/          # Images or icons
+├── .gitignore               # Git ignore file
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
+├── Procfile                 # Deployment configuration for platforms like Heroku
+└── venv/                    # Virtual environment (ignored by Git)
 ```
 
 ## How It Works
