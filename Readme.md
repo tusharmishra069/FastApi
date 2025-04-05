@@ -125,12 +125,9 @@ FASTAPI/
 │   │   └── index.html       # HTML template for the web interface
 │   ├── static/
 │   │   ├── css/             # CSS files for styling
-│   │   ├── js/              # JavaScript files
-│   │   └── images/          # Images or icons
 ├── .gitignore               # Git ignore file
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation
-├── Procfile                 # Deployment configuration for platforms like Heroku
 └── venv/                    # Virtual environment (ignored by Git)
 ```
 
