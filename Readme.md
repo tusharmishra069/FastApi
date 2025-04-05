@@ -112,7 +112,7 @@ The app will be available at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 ```
 FASTAPI/
 │   ├── __init__.py          # Makes the app folder a Python package
-│   ├── main.py              # Main entry point for the FastAPI app
+│   ├── index.py              # Main entry point for the FastAPI app
 │   ├── config/
 │   │   └── db.py            # MongoDB connection setup
 │   ├── models/
