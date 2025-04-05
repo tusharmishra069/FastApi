@@ -111,7 +111,6 @@ The app will be available at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 ## Project Structure
 ```
 FASTAPI/
-├── app/
 │   ├── __init__.py          # Makes the app folder a Python package
 │   ├── main.py              # Main entry point for the FastAPI app
 │   ├── config/
